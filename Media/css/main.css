@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.content{
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 10px;
+}
+#add_new_note *{
+    display: block;
+}
+.all_notes{
+    padding: 0;
+    box-shadow: 2px 0px 10px 1px #aaa;
+}
+.all_notes li{
+    list-style-type: none;
+    border: 1px solid #aaa;
+    padding: 10px;
+}
+.all_notes li h2{
+    margin-top: 0;
+}
+.all_notes li .publication_date, .detail .publication_date{
+    text-align: right;
+}
+.detail .publication_date, .detail .author{
+    font-weight: bold;
+
+}
+.all_notes li p, .detail p{
+    word-break: break-word;
+}
+.all_notes .details, .detail .details{
+    display: table;
+    width: 100%;
+}
+.all_notes span, .detail span{
+    display: table-cell;
+    width: 50%;
+}
+.all_notes a div{
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #03A9F4;
+    color: white;
+    line-height: 30px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
+.detail h2{
+    margin: 10px auto;
+    font-size: 32px;
+    text-align: center;
+}
+.detail{
+    margin-bottom: 3rem;
+}
+#add_new_note *, #add_new_comment *{
+    display: block;
+    font-size: 18px;
+    width: 100%;
+}
+#add_new_note, #add_new_comment{
+    border: 1px solid #aaa;
+    padding: 10px;
+    box-shadow: 2px 0px 10px 1px #aaa;
+}
+#add_new_note input, #add_new_comment input{
+    height: 30px;
+    margin-bottom: 10px;
+}
+#add_new_note textarea, #add_new_comment textarea{
+    height: 70px;
+    margin-bottom: 10px;
+}
+#add_new_note button, #add_new_comment button{
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #03A9F4;
+    color: white;
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+}
+.add_comment{
+    font-size: 27px;
+    font-weight: bold;
+}
+.header{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    background-color: #03A9F4;
+}
+.header h1{
+    line-height: 80px;
+    cursor: pointer;
+    display: initial;
+}
+.header h1 a{
+    color: white !important;
+}
+.slider a{
+    color: black !important;
+}
+.slider
+{
+    width: 900px;
+    height: 300px;
+    border:1px solid #aaa;
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 0px 10px 1px #aaa;
+}
+.mover
+{
+    height: 300px;
+    font-size:0;
+}
+.slide{
+    width: 900px;
+    height: 300px;
+    display: inline-block;
+    text-align: center;
+    box-sizing:border-box;
+}
+.slider .slide h2{
+    font-size: 40px;
+}
+
+.slider .slide p{
+    font-size: 32px;
+    padding: 0 100px;
+}
+
+.arrow{
+    position: absolute;
+    top:50%;
+    margin-top: -25px;
+    width: 50px;
+    height: 50px;
+    background: #03A9F4;
+    border-radius: 25px;
+}
+.arrowleft{
+    left: 25px;
+}
+.arrowright{
+    right: 25px;
+}    
